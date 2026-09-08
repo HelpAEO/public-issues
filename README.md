@@ -6,7 +6,7 @@ This is where you tell us what's broken and what you'd like to see next in
 You don't need a technical background to post here. If something didn't work,
 that's worth reporting — even if you're not sure why.
 
-**[→ Report a bug](../../issues/new)**  ·  **[→ Suggest an idea](../../issues/new)**  ·  **[→ Browse what's already reported](../../issues)**
+**[→ Report a bug](../../issues/new/choose)**  ·  **[→ Suggest an idea](../../issues/new/choose)**  ·  **[→ Browse what's already reported](../../issues)**
 
 ---
 

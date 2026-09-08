@@ -1,0 +1,89 @@
+name: Report a bug
+description: Something on helpaeo.com didn't work, looked wrong, or gave the wrong answer.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Please don't include anything private** — passwords, API keys, billing
+        details, or personal data about you or your customers. This repository is
+        public. Crop or blur screenshots before uploading.
+
+        Found a security vulnerability? Please email **hello@helpaeo.com** instead
+        so we can fix it before it's public.
+
+  - type: input
+    id: where
+    attributes:
+      label: Where did you find it?
+      description: The page URL, or the part of the app.
+      placeholder: https://helpaeo.com/scan/... — or "the sign-up form"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A sentence or two in your own words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The clicks you made, in order, so we can see it too.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: >
+        Drag images straight into this box. A shot of the whole browser window,
+        including the address bar, is the single most useful thing you can give us.
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows / Safari on iPhone
+    validations:
+      required: false
+
+  - type: input
+    id: when
+    attributes:
+      label: Roughly when did this happen?
+      description: Helps us find it in our logs.
+      placeholder: This morning, around 9am UK time
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I've had a quick look through open issues and this isn't already reported.
+          required: false
+        - label: My screenshots and text don't contain private or personal data.
+          required: true

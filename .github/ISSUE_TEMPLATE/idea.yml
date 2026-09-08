@@ -1,0 +1,37 @@
+name: Suggest an idea
+description: A feature, a change, or something that would make helpaeo.com more useful.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are as welcome as bugs. Don't worry about whether it's feasible —
+        describing the problem you're hitting is more useful to us than a
+        fully-formed solution.
+
+        Please keep private and personal data out of this public repository.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: The feature or change you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What are you trying to get done, and what do you do today instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, sketches, or examples of other tools doing it well.
+    validations:
+      required: false

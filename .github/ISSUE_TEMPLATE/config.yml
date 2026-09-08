@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: mailto:hello@helpaeo.com
+    about: Please email us privately instead of opening a public issue, so we can fix it first.
+  - name: Account, billing, or sales question
+    url: mailto:hello@helpaeo.com
+    about: These aren't handled here — email us and we'll come back to you.
