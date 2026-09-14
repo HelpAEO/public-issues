@@ -1,4 +1,4 @@
-# HelpAEO — Public Issues
+# HelpAEO 
 
 This is where you tell us what's broken and what you'd like to see next in
 [helpaeo.com](https://helpaeo.com).
@@ -7,6 +7,7 @@ You don't need a technical background to post here. If something didn't work,
 that's worth reporting — even if you're not sure why.
 
 **[→ Report a bug](../../issues/new/choose)**  ·  **[→ Suggest an idea](../../issues/new/choose)**  ·  **[→ Browse what's already reported](../../issues)**
+
 
 ---
 
@@ -91,3 +92,14 @@ We can't promise every suggestion gets built, but every one gets read.
 - **Security vulnerabilities** — email **hello@helpaeo.com** instead, so we can
   fix it before it's public.
 - **Account, billing, or sales questions** — email **hello@helpaeo.com**.
+
+---
+## What is HelpAEO
+
+We help you understand how AI sees your business, where your visibility is weak, what sources influence the answers, and what needs to be improved so AI systems can find, understand, and describe you more accurately.
+
+This is not about tricking AI or chasing shortcuts. It is about making your business clear, credible, and ready for the way people are using the internet.
+
+Because people are no longer only browsing pages of links. They are asking AI for recommendations, comparisons, summaries, and decisions.
+
+And businesses need to be ready for that.
